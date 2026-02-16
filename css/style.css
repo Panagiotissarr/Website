@@ -38,7 +38,7 @@
   --orange: #ff6d1b;
 }
 
-/* use sugar magic font from ../assets/fonts/sugarmagicpersonaluseonly-jemyo.otf */
+/* use sugar magic font */
 @font-face {
   font-family: "sugar-magic";
   src: url("../assets/fonts/sugarmagicpersonaluseonly-jemyo.otf")
