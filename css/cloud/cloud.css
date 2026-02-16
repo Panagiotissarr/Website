@@ -290,7 +290,7 @@ body.cloud-page {
 }
 
 .app-preview-spacer {
-  background-image: url("../../assets/img/articles/cloud/app.jpg");
+  background-image: url(".../assets/img/articles/cloud/app.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -300,20 +300,20 @@ body.cloud-page {
 
 /* Grid Item Positions for Desktop */
 .div1 {
-  /* background-image: url("../../assets/img/articles/cloud/app.jpg"); */
+  /* background-image: url(".../assets/img/articles/cloud/app.jpg"); */
   grid-column: span 2 / span 2;
   grid-row: span 8 / span 8;
 }
 
 .div2 {
-  background-image: url("../../assets/img/articles/cloud/mirror.jpg");
+  background-image: url(".../assets/img/articles/cloud/mirror.jpg");
   grid-row: span 4 / span 4;
   grid-column-start: 3;
   grid-row-start: 5;
 }
 
 .div3 {
-  background-image: url("../../assets/img/articles/cloud/reply.jpg");
+  background-image: url(".../assets/img/articles/cloud/reply.jpg");
   grid-column: span 2 / span 2;
   grid-row: span 2 / span 2;
   grid-column-start: 4;
@@ -321,7 +321,7 @@ body.cloud-page {
 }
 
 .div6 {
-  background-image: url("../../assets/img/articles/cloud/file.jpg");
+  background-image: url(".../assets/img/articles/cloud/file.jpg");
   grid-column: span 2 / span 2;
   grid-row: span 2 / span 2;
   grid-column-start: 4;
@@ -330,7 +330,7 @@ body.cloud-page {
 
 
 .div8 {
-  background-image: url("../../assets/img/articles/cloud/desktop.jpg");
+  background-image: url(".../assets/img/articles/cloud/desktop.jpg");
   grid-column: span 3 / span 3;
   grid-row: span 2 / span 2;
   grid-column-start: 6;
@@ -338,7 +338,7 @@ body.cloud-page {
 }
 
 .div9 {
-  background-image: url("../../assets/img/articles/cloud/notif.jpg");
+  background-image: url(".../assets/img/articles/cloud/notif.jpg");
   grid-column: span 2 / span 2;
   grid-row: span 4 / span 4;
   grid-column-start: 4;
@@ -346,28 +346,28 @@ body.cloud-page {
 }
 
 .div10 {
-  background-image: url("../../assets/img/articles/cloud/wallpaper.jpg");
+  background-image: url(".../assets/img/articles/cloud/wallpaper.jpg");
   grid-row: span 1 / span 8;
   grid-column-start: 6;
   grid-row-start: 1;
 }
 
 .div11 {
-  background-image: url("../../assets/img/articles/cloud/media.jpg");
+  background-image: url(".../assets/img/articles/cloud/media.jpg");
   grid-row: span 2 / span 2;
   grid-column-start: 3;
   grid-row-start: 1;
 }
 
 .div12 {
-  background-image: url("../../assets/img/articles/cloud/clipboard.jpg");
+  background-image: url(".../assets/img/articles/cloud/clipboard.jpg");
   grid-row: span 2 / span 2;
   grid-column-start: 3;
   grid-row-start: 3;
 }
 
 .div13 {
-  background-image: url("../../assets/img/articles/cloud/cloud-logo.png");
+  background-image: url(".../assets/img/articles/cloud/cloud-logo.png");
   grid-row: span 4 / span 4;
   grid-column-start: 6;
   grid-row-start: 5;
@@ -375,7 +375,7 @@ body.cloud-page {
 
 
 .div16 {
-  background-image: url("../../assets/img/articles/cloud/github.jpg");
+  background-image: url(".../assets/img/articles/cloud/github.jpg");
   grid-row: span 2 / span 2;
   grid-column-start: 8;
   grid-row-start: 1;

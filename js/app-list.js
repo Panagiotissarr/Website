@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "'Welcome to a calmer internet' Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.",
       iconUrl:
         "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/zen-browser.png",
-      imageUrl: "/assets/img/articles//app-screenshots/zen.png",
+      imageUrl: "/./assets/img/articles//app-screenshots/zen.png",
       price: "free",
     },
     {
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Protected Text is a workspace for your notes. It is a Desinged so that can be used without an account just a url and password.",
       iconUrl:
         "./assets/img/PT.png",
-      imageUrl: "/assets/img/articles//app-screenshots/notion.png",
+      imageUrl: "/./assets/img/articles//app-screenshots/notion.png",
       price: "free",
     },
     {
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "A collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable.",
       iconUrl:
         "https://upload.wikimedia.org/wikipedia/en/f/f4/Raycast_App_Icon.png",
-      imageUrl: "/assets/img/articles//app-screenshots/raycast.png",
+      imageUrl: "/./assets/img/articles//app-screenshots/raycast.png",
       price: "free",
     },
     {
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Blazingly fast mail client with super responsive modern UI for Windows.",
       iconUrl:
         "https://store-images.s-microsoft.com/image/apps.46082.13563003673252387.aa0aab37-1fc3-4cff-965d-326256200b2f.784318a4-3975-43cb-990a-3a9fea89c2ea?h=115",
-      imageUrl: "/assets/img/articles//app-screenshots/latest.png",
+      imageUrl: "/./assets/img/articles//app-screenshots/latest.png",
       price: "free",
     },
     {
