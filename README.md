@@ -4,7 +4,7 @@ Personal portfolio and web playground for **Panagiotis Sarris**.
 
 [Live Site](https://sarris.dev)
 
-## Preview
+## Some recoursces
 
 ![sarris.dev homepage preview](./assets/img/web-preview.png)
 
