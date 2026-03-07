@@ -23,21 +23,15 @@ Personal portfolio and web playground for **Panagiotis Sarris**.
 
 ## Tech Stack
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
+- HTML
+- CSS
+- JavaScript
 - Vercel (deployment/routing)
 
 ## Run Locally
 
 This is a static site, so no build step is required.
-
-```powershell
-# from repository root
-python -m http.server 5500
-```
-
-Then open: `http://localhost:5500`
+Just double click the index.html it will open the main homepage
 
 ## Project Structure
 
