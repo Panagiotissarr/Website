@@ -1,7 +1,6 @@
 @import url(./common/nav.css);
 @import url(./common/logo.css);
-@import url(./common/love-tag.css);
-
+  
 /* Font loading optimization */
 @font-face {
   font-family: "sugar-magic";

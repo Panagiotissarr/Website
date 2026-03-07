@@ -1,8 +1,24 @@
-const cursor = document.getElementById("cursor");
-//select all the links and buttons on the page
+// get cursor elements
+let cursor = document.getElementById("cursor");
+let cursorText = document.getElementById("cursor-text");
+
+// create them automatically if missing
+if (!cursor) {
+  cursor = document.createElement("div");
+  cursor.id = "cursor";
+  cursor.className = "rounded";
+  document.body.appendChild(cursor);
+}
+
+if (!cursorText) {
+  cursorText = document.createElement("div");
+  cursorText.id = "cursor-text";
+  document.body.appendChild(cursorText);
+}
+
+// select all links and buttons
 const links = document.querySelectorAll("a, button");
 const hoverables = document.querySelectorAll(".hover-state");
-const cursorText = document.getElementById("cursor-text");
 
 const moveCursor = (e) => {
   const mouseY = e.clientY;
@@ -10,7 +26,6 @@ const moveCursor = (e) => {
 
   cursor.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
 
-  //don't let cursorText go outside the screen
   if (mouseX > window.innerWidth - cursorText.clientWidth) {
     cursorText.style.left = -cursorText.clientWidth + "px";
   } else {
@@ -27,7 +42,7 @@ const moveCursor = (e) => {
 function updateTitle(titleText) {
   if (titleText) {
     cursorText.style.scale = 1;
-    //if the title text is an image then set the image as the background
+
     if (
       titleText.includes(".jpg") ||
       titleText.includes(".png") ||
@@ -54,6 +69,7 @@ links.forEach((link) => {
     cursor.classList.add("cursor-grow");
     updateTitle(link.getAttribute("data-title"));
   });
+
   link.addEventListener("mouseleave", () => {
     cursor.classList.remove("blur-mini");
     cursor.classList.remove("cursor-grow");
@@ -66,8 +82,11 @@ hoverables.forEach((hoverable) => {
     cursor.style.display = "none";
     document.body.style.cursor = "pointer";
   });
-  hoverable.addEventListener("mouseleave", () => {
-    cursor.style.display = "block";
-    document.body.style.cursor = "none";
+
+  hoverables.forEach((hoverable) => {
+    hoverable.addEventListener("mouseleave", () => {
+      cursor.style.display = "block";
+      document.body.style.cursor = "none";
+    });
   });
 });

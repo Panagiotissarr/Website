@@ -3,7 +3,6 @@ body{
   }
   
   .rounded{
-      /* https://codepen.io/developeraspire5/pen/gOGjeZG */
       position: fixed;
       top: -25px;
       left: -25px;
@@ -14,9 +13,12 @@ body{
       z-index: 10000;
       pointer-events: none;
       transition: outline 0.5s ease-in-out;
+      box-sizing: border-box;
+      border: 2px dashed var(--primary-color) !important;
 
       @media screen and (max-width: 500px){
         display: none !important;
+
       }
   }
 
@@ -29,21 +31,20 @@ body{
     transition: backdrop-filter 0.5s ease-in-out !;
   }
 
-  .cursor-normal{
-    outline:2px dashed var(--primary-color);
-    transition: border 0.5s ease-in-out;
-  }
+.cursor-normal {
+    outline:2px dashed var(--primary-color) !important;
+    transition: border 0.5s ease-in-out !important;
+}
 
-  .cursor-grow{
-    /* border: 5px solid var(--primary-color); */
-    outline: 3px solid var(--primary-color);
-    transition: border 0.5s ease-in-out;
-  }
 
-  .blur-mini{
+.cursor-grow {
+  border: 3px solid var(--primary-color);
+}
+
+  .blur-mini {
     backdrop-filter: blur(0px);
     transition: backdrop-filter 0.5s ease-in-out;
-  }
+    }
 
   #cursor-text{
     position: fixed;
@@ -67,7 +68,3 @@ body{
       object-fit: cover;
     }
   }
-
-  /* Paste 
-            <div class="cursor rounded move" id="cursor"></div>
-    in your html under body (preferably in container) */

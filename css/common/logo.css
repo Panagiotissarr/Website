@@ -31,9 +31,6 @@
     &.Windows-logo {
       background-image: url("./assets/img/articles/Windows/article-icon-Windows.png");
     }
-    &.home-logo {
-      background-image: url("./assets/img/notion.png");
-    }
     &.pixel-logo {
       background-image: url("./assets/img/articles/pixel/article-icon-pixel.png");
     }

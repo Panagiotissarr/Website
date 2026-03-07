@@ -63,7 +63,6 @@ try {
 
     // Clear all first
     intro_nav.classList.remove("active");
-    projects_nav.classList.remove("active");
     journal_nav && journal_nav.classList.remove("active");
     about_nav.classList.remove("active");
     contact_nav.classList.remove("active");
