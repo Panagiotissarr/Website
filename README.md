@@ -1,4 +1,4 @@
-# sarris.dev
+# Sarris.dev
 
 Personal portfolio and web playground for **Panagiotis Sarris**.
 
