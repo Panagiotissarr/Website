@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/go/discord",
-      "destination": "https://discord.gg/zMhrqXe482",
+      "source": "/go/new",
+      "destination": "https://github.com/panagiotissarr",
       "statusCode": 302
     },
     {
@@ -22,7 +22,7 @@
     }, 
     {
       "source": "/go/gravatar/small",
-      "destination": "https://sarris.dev/gravatar",
+      "destination": "https://old.sarris.dev/gravatar",
       "statusCode": 302
     }, 
     {

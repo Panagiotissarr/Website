@@ -44,6 +44,51 @@
     format("opentype");
 }
 
+/* Discontinued Banner */
+.discontinued-banner {
+  background-color: var(--background-color-tr);
+  color: var(--text-color);
+  padding: 10px 24px;
+  text-align: center;
+  font-size: 0.85rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 100px;
+  position: fixed;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+  max-width: 90%;
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: 0 10px 30px -10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.discontinued-banner a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1.5px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.discontinued-banner a:hover {
+  border-bottom-color: var(--primary-color);
+}
+
+@media screen and (max-width: 500px) {
+  .discontinued-banner {
+    font-size: 0.75rem;
+    padding: 8px 16px;
+    width: 85%;
+  }
+}
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
